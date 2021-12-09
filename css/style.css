@@ -1,0 +1,135 @@
+*{
+    font-family: sans-serif;
+}
+.myBackground{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://images.alphacoders.com/674/thumb-1920-674925.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.myText{
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 32%;
+    height: 300px;
+    font-family: sans-serif;
+    margin: 8% 0% 0% 32%;
+    
+}
+.myTemp{
+    font-size: 32px;
+    font-weight:bold;
+}
+.mTxt{
+    font-size: 16px;
+}
+.mBlack{
+    background:black;
+    color: rgb(184, 184, 184);
+}
+.mButton{
+    position: absolute;
+    box-sizing: border-box;
+    margin: 8% 0% 0% 14%;
+}
+.mBasic{
+    background:rgba(127, 255, 212, 0);
+    border: rgb(67, 67, 67);
+    border-style: groove;
+    font-weight:700;
+}
+.mySecond{
+    width: 100%;
+    min-height:150px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.mySecondEnd{
+    min-height: 500px;
+    justify-content:center;
+}
+.myBox1{
+    min-height: 200px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.myBox2{
+    min-height: 200px;
+    margin-right: 5px; 
+}
+.myBox3{
+    min-height: 200px;
+    margin-right: 5px; 
+}
+.myBox4{
+    min-height: 200px; 
+}
+.myBoxImg1{
+    background-image: url("../img/Untitled1.png");
+    height: 210px;
+    background-size: cover;
+}
+.myBoxImg2{
+    background-image: url("../img/Untitled2.png");
+    height: 210px;
+    background-size: cover;
+}
+.myBoxImg3{
+    background-image: url("https://www.csshint.com/wp-content/uploads/2018/04/coming-soon18.jpg");
+    height: 210px;
+    background-size: cover;
+}
+.myBoxImg4{
+    background-image: url("../img/Untitled.png");
+    height: 210px;
+    background-size: cover;
+}
+.myBoxText{
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+}
+.myText3{
+    font-size: 16px;
+}
+.myText4{
+    font-size: 12px;
+}
+.myButton{
+    background:black;
+    color: rgb(194, 194, 194);
+}
+@media only screen and (max-width: 768px) {
+    .myBackground{
+        /* display: none !important; */
+       
+    }
+    .myBackground{
+        max-height: 300px;
+    }
+    .myTemp{
+        font-size: 16px;
+    }
+    .mTxt{
+        font-size: 10px;
+    }
+    .myText{
+        width: 200px;
+        height: 50px !important; 
+    }
+    .mySecond{
+        margin: top 50px;;
+    }
+}
+@media only screen and (max-width: 900px){
+    .mySecond{
+        margin-top: 10%;
+    }
+
+}
